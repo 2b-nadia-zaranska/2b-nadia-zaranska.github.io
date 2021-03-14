@@ -1,0 +1,113 @@
+body
+{
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c6090b4-c181-4717-9483-e57e9a28f609/d9wwjbe-feadff97-5da8-4e1a-9122-215f13c2b169.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2M2MDkwYjQtYzE4MS00NzE3LTk0ODMtZTU3ZTlhMjhmNjA5XC9kOXd3amJlLWZlYWRmZjk3LTVkYTgtNGUxYS05MTIyLTIxNWYxM2MyYjE2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._Wec4fTgnM_Fe6JeQT756ny5gKK-UEr9oWer8T5zBCk");
+	font-family:serif;
+	font-size: 18px;
+	color: black;
+}
+#container
+{
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#naglowek
+{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: rgb(255,194,7);
+background: linear-gradient(90deg, rgba(255,194,7,1) 17%, rgba(255,253,103,1) 58%, rgba(255,68,0,1) 100%);
+	width: 2000px;
+
+}
+
+#context
+{
+	padding: 15px;
+	width: 800px;
+overflow: hidden;
+text-align:center;
+	font-size: 20px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+
+}
+h1
+{
+	font-size: 48px;
+	color:black;
+	font-family:serif;
+}
+#nav
+{
+	float:left;
+	background-color: lightgrey;
+	width: 150px;
+	min-height: 4300px;
+	padding: 10px;
+}
+
+
+#tytul
+{
+	 height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  
+}
+#mapy
+{
+	width:300px;
+       margin:0 auto;
+    display:block;
+	
+}
+#wioski
+{
+	padding: 15px;
+background: rgb(231,226,135);
+background: linear-gradient(90deg, rgba(231,226,135,0.5046393557422969) 0%, rgba(249,128,58,1) 100%);
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+#prawo
+{
+float:right;
+	background-color: lightgrey;
+	width: 200px;
+	min-height: 4300px;
+	padding: 10px;
+}
+#tabelka
+{
+	  margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+/*Nieodwiedzony link*/
+a:link
+{
+	color:black;
+}
+
+/*Odwiedzony link*/
+a:visited
+{
+	color: dark violet;
+}
+
+/*Link po najechaniu kursorem*/
+a:hover
+{
+	color: white;
+}
