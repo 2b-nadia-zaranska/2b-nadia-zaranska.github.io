@@ -38,13 +38,16 @@ text-align:center;
 
 }
 #1zdjecie
+{
+	border:6px solid black;
+}
 h1
 {
 	font-size: 48px;
 	color:black;
 	font-family:serif;
 }
-#nav{border:6px solid black;}
+#nav
 {
 	float:left;
 	background-color: lightgrey;
